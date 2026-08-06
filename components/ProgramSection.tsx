@@ -5,7 +5,7 @@ const DAYS = [
     day: 'День 1',
     title: 'Ванильный экспресс',
     subtitle: 'Домашнее мороженое за 10 минут',
-    image: '/images/day1-vanilla.png',
+    image: '/images/day1-vanilla.webp',
     imageAlt: 'Нежное ванильное мороженое',
     steps: [
       'Приготовите нежное и натуральное мороженое',
@@ -22,7 +22,7 @@ const DAYS = [
     day: 'День 2',
     title: 'Жареное мороженое',
     subtitle: 'Горячее снаружи, холодное внутри',
-    image: '/images/day2-fried.png',
+    image: '/images/day2-fried.webp',
     imageAlt: 'Жареное мороженое в хрустящей панировке',
     steps: [
       'Приготовите эффектный десерт с хрустящей корочкой',

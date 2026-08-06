@@ -97,7 +97,7 @@ export default function HeroSection() {
 
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/hero-icecream.png"
+                  src="/images/hero-icecream.webp"
                   alt="Красочные шарики домашнего мороженого"
                   width={560}
                   height={560}

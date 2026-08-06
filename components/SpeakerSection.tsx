@@ -39,7 +39,7 @@ export default function SpeakerSection() {
             {/* Photo side */}
             <div className="relative min-h-96 lg:min-h-[680px] overflow-hidden">
               <Image
-                src="/images/speaker-alexey.webp?v=4"
+                src="/images/speaker-alexey.webp"
                 alt="Алексей Сыровер — основатель Академии крафтовых продуктов"
                 fill
                 className="object-cover"

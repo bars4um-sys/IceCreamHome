@@ -4,12 +4,12 @@ import { useState } from 'react'
 import Image from 'next/image'
 
 const RESULTS = [
-  { src: '/images/result1.png', alt: 'Клубничное мороженое ученицы Марины', name: 'Марина К.', dish: 'Клубничный сорбет' },
-  { src: '/images/result2.png', alt: 'Шоколадный эскимо ученика Дмитрия', name: 'Дмитрий В.', dish: 'Шоколадный эскимо' },
-  { src: '/images/result3.png', alt: 'Фисташковое мороженое ученицы Елены', name: 'Елена С.', dish: 'Фисташковый рожок' },
-  { src: '/images/result4.png', alt: 'Ягодный сорбет ученицы Анны', name: 'Анна П.', dish: 'Ягодный сорбет' },
-  { src: '/images/result5.png', alt: 'Ванильное мороженое с карамелью ученицы Ольги', name: 'Ольга М.', dish: 'Ванильная карамель' },
-  { src: '/images/result6.png', alt: 'Матча мороженое ученика Сергея', name: 'Сергей Т.', dish: 'Матча мороженое' },
+  { src: '/images/result1.webp', alt: 'Клубничное мороженое ученицы Марины', name: 'Марина К.', dish: 'Клубничный сорбет' },
+  { src: '/images/result2.webp', alt: 'Шоколадный эскимо ученика Дмитрия', name: 'Дмитрий В.', dish: 'Шоколадный эскимо' },
+  { src: '/images/result3.webp', alt: 'Фисташковое мороженое ученицы Елены', name: 'Елена С.', dish: 'Фисташковый рожок' },
+  { src: '/images/result4.webp', alt: 'Ягодный сорбет ученицы Анны', name: 'Анна П.', dish: 'Ягодный сорбет' },
+  { src: '/images/result5.webp', alt: 'Ванильное мороженое с карамелью ученицы Ольги', name: 'Ольга М.', dish: 'Ванильная карамель' },
+  { src: '/images/result6.webp', alt: 'Матча мороженое ученика Сергея', name: 'Сергей Т.', dish: 'Матча мороженое' },
 ]
 
 export default function ResultsSection() {
