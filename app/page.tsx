@@ -9,6 +9,7 @@ import TestimonialsSection from '@/components/TestimonialsSection'
 import RegisterSection from '@/components/RegisterSection'
 import Footer from '@/components/Footer'
 import StickyCtaBar from '@/components/StickyCtaBar'
+import ThemeSwitcher from '@/components/ThemeSwitcher'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <RegisterSection />
       <Footer />
       <StickyCtaBar />
+      <ThemeSwitcher />
     </main>
   )
 }
