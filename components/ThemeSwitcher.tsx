@@ -67,7 +67,7 @@ export default function ThemeSwitcher() {
       {/* Toggle button */}
       <button
         onClick={() => setOpen((v) => !v)}
-        className="w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition-transform hover:scale-110 active:scale-95"
+        className="px-5 py-3 rounded-full shadow-lg flex items-center gap-2 transition-transform hover:scale-105 active:scale-95"
         style={{
           background: current.accent,
           boxShadow: `0 6px 20px color-mix(in srgb, ${current.accent} 40%, transparent)`,
@@ -75,11 +75,8 @@ export default function ThemeSwitcher() {
         aria-label="Переключить цветовую тему"
         title="Цветовые темы"
       >
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <circle cx="12" cy="12" r="3" fill="white"/>
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" fill="white" opacity="0.6"/>
-          <path d="M12 2v10l6 3.46C19.26 14.07 20 13.1 20 12c0-4.41-3.59-8-8-8z" fill="white"/>
-        </svg>
+        <span className="text-xl" role="img" aria-hidden="true">😊</span>
+        <span className="text-white font-bold text-sm whitespace-nowrap">Нажми меня</span>
       </button>
     </div>
   )
